@@ -1,0 +1,158 @@
+21-03-2021 15:23:38.091 [Gauge] [INFO] Watching directory: C:\Users\testinium\Desktop\IntellijProje\BeymenGauge\specs
+21-03-2021 15:23:38.098 [Gauge] [DEBUG] Found 1 files
+21-03-2021 15:23:38.104 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+21-03-2021 15:23:38.108 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\IntellijProje\BeymenGauge\specs\example.spec
+21-03-2021 15:27:43.856 [Gauge] [INFO] Watching directory: C:\Users\testinium\Desktop\IntellijProje\BeymenGauge\specs
+21-03-2021 15:27:43.856 [Gauge] [DEBUG] Found 1 files
+21-03-2021 15:27:43.866 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+21-03-2021 15:27:43.867 [Gauge] [INFO] Initializing specs cache with 1 specs
+21-03-2021 15:27:43.867 [Gauge] [DEBUG] Adding specs from C:\Users\testinium\Desktop\IntellijProje\BeymenGauge\specs\example.spec
+21-03-2021 15:27:43.868 [Gauge] [INFO] Initializing steps cache with 1 steps
+21-03-2021 15:27:43.868 [Gauge] [INFO] Gauge daemon initialized and listening on port: 56878
+21-03-2021 15:27:55.102 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"old\" fiyat\304\261 ile \"new\" fiyat\304\261 aras\304\261ndaki fark hesapland\304\261" > 
+21-03-2021 15:27:55.102 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} fiyat\304\261 ile {} fiyat\304\261 aras\304\261ndaki fark hesapland\304\261" parameterizedStepValue:"<old> fiyat\304\261 ile <new> fiyat\304\261 aras\304\261ndaki fark hesapland\304\261" parameters:"old" parameters:"new" > > 
+21-03-2021 15:27:55.103 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"old\" fiyat\304\261 ile \"new\" fiyat\304\261 aras\304\261ndaki fark hesapland\304\261" > 
+21-03-2021 15:27:55.104 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} fiyat\304\261 ile {} fiyat\304\261 aras\304\261ndaki fark hesapland\304\261" parameterizedStepValue:"<old> fiyat\304\261 ile <new> fiyat\304\261 aras\304\261ndaki fark hesapland\304\261" parameters:"old" parameters:"new" > > 
+21-03-2021 15:29:03.214 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Navigate to <url>" > 
+21-03-2021 15:29:03.215 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <url>" parameters:"url" > > 
+21-03-2021 15:29:03.215 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<key> elementine hover olundu" > 
+21-03-2021 15:29:03.215 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} elementine hover olundu" parameterizedStepValue:"<key> elementine hover olundu" parameters:"key" > > 
+21-03-2021 15:29:03.215 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<key> elemente t\304\261kland\304\261" > 
+21-03-2021 15:29:03.215 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} elemente t\304\261kland\304\261" parameterizedStepValue:"<key> elemente t\304\261kland\304\261" parameters:"key" > > 
+21-03-2021 15:29:03.216 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"URL'nin <key> i\303\247erdi\304\237i do\304\237ruland\304\261" > 
+21-03-2021 15:29:03.216 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"URL'nin {} i\303\247erdi\304\237i do\304\237ruland\304\261" parameterizedStepValue:"URL'nin <key> i\303\247erdi\304\237i do\304\237ruland\304\261" parameters:"key" > > 
+21-03-2021 15:29:03.216 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\304\260ndirimli \303\274r\303\274nler listelendi" > 
+21-03-2021 15:29:03.216 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"\304\260ndirimli \303\274r\303\274nler listelendi" parameterizedStepValue:"\304\260ndirimli \303\274r\303\274nler listelendi" > > 
+21-03-2021 15:29:03.216 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\304\260lk \304\260ndirimli \303\234r\303\274n Se\303\247ildi" > 
+21-03-2021 15:29:03.216 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"\304\260lk \304\260ndirimli \303\234r\303\274n Se\303\247ildi" parameterizedStepValue:"\304\260lk \304\260ndirimli \303\234r\303\274n Se\303\247ildi" > > 
+21-03-2021 15:29:03.217 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<key1> fiyat\304\261 ile <key2> fiyat\304\261 aras\304\261ndaki fark hesapland\304\261" > 
+21-03-2021 15:29:03.217 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} fiyat\304\261 ile {} fiyat\304\261 aras\304\261ndaki fark hesapland\304\261" parameterizedStepValue:"<key1> fiyat\304\261 ile <key2> fiyat\304\261 aras\304\261ndaki fark hesapland\304\261" parameters:"key1" parameters:"key2" > > 
+21-03-2021 15:29:03.481 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Navigate to \"https://www.beymen.com\"" > 
+21-03-2021 15:29:03.481 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://www.beymen.com>" parameters:"https://www.beymen.com" > > 
+21-03-2021 15:29:03.514 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"KADIN\" elementine hover olundu" > 
+21-03-2021 15:29:03.514 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} elementine hover olundu" parameterizedStepValue:"<KADIN> elementine hover olundu" parameters:"KADIN" > > 
+21-03-2021 15:29:03.517 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"G\304\260Y\304\260M\" elemente t\304\261kland\304\261" > 
+21-03-2021 15:29:03.517 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} elemente t\304\261kland\304\261" parameterizedStepValue:"<G\304\260Y\304\260M> elemente t\304\261kland\304\261" parameters:"G\304\260Y\304\260M" > > 
+21-03-2021 15:29:03.519 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"URL'nin \"kadin-giyim\" i\303\247erdi\304\237i do\304\237ruland\304\261" > 
+21-03-2021 15:29:03.519 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"URL'nin {} i\303\247erdi\304\237i do\304\237ruland\304\261" parameterizedStepValue:"URL'nin <kadin-giyim> i\303\247erdi\304\237i do\304\237ruland\304\261" parameters:"kadin-giyim" > > 
+21-03-2021 16:02:38.462 [Gauge] [INFO] Watching directory: C:\Users\testinium\Desktop\IntellijProje\BeymenGauge\specs
+21-03-2021 16:02:38.466 [Gauge] [DEBUG] Found 1 files
+21-03-2021 16:02:38.469 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+21-03-2021 16:02:38.473 [Gauge] [INFO] Initializing specs cache with 1 specs
+21-03-2021 16:02:38.473 [Gauge] [DEBUG] Adding specs from C:\Users\testinium\Desktop\IntellijProje\BeymenGauge\specs\example.spec
+21-03-2021 16:02:38.473 [Gauge] [INFO] Initializing steps cache with 1 steps
+21-03-2021 16:02:38.474 [Gauge] [INFO] Gauge daemon initialized and listening on port: 50959
+21-03-2021 16:03:00.280 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Navigate to <url>" > 
+21-03-2021 16:03:00.280 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <url>" parameters:"url" > > 
+21-03-2021 16:03:00.645 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<key> elementine hover olundu" > 
+21-03-2021 16:03:00.645 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} elementine hover olundu" parameterizedStepValue:"<key> elementine hover olundu" parameters:"key" > > 
+21-03-2021 16:03:00.665 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<key> elemente t\304\261kland\304\261" > 
+21-03-2021 16:03:00.665 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} elemente t\304\261kland\304\261" parameterizedStepValue:"<key> elemente t\304\261kland\304\261" parameters:"key" > > 
+21-03-2021 16:03:00.686 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"URL'nin <key> i\303\247erdi\304\237i do\304\237ruland\304\261" > 
+21-03-2021 16:03:00.686 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"URL'nin {} i\303\247erdi\304\237i do\304\237ruland\304\261" parameterizedStepValue:"URL'nin <key> i\303\247erdi\304\237i do\304\237ruland\304\261" parameters:"key" > > 
+21-03-2021 16:03:01.131 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<key1> fiyat\304\261 ile <key2> fiyat\304\261 aras\304\261ndaki fark hesapland\304\261" > 
+21-03-2021 16:03:01.131 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} fiyat\304\261 ile {} fiyat\304\261 aras\304\261ndaki fark hesapland\304\261" parameterizedStepValue:"<key1> fiyat\304\261 ile <key2> fiyat\304\261 aras\304\261ndaki fark hesapland\304\261" parameters:"key1" parameters:"key2" > > 
+21-03-2021 16:03:01.144 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Navigate to \"https://www.beymen.com\"" > 
+21-03-2021 16:03:01.145 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://www.beymen.com>" parameters:"https://www.beymen.com" > > 
+21-03-2021 16:03:01.145 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"KADIN\" elementine hover olundu" > 
+21-03-2021 16:03:01.145 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} elementine hover olundu" parameterizedStepValue:"<KADIN> elementine hover olundu" parameters:"KADIN" > > 
+21-03-2021 16:03:01.145 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"G\304\260Y\304\260M\" elemente t\304\261kland\304\261" > 
+21-03-2021 16:03:01.145 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} elemente t\304\261kland\304\261" parameterizedStepValue:"<G\304\260Y\304\260M> elemente t\304\261kland\304\261" parameters:"G\304\260Y\304\260M" > > 
+21-03-2021 16:03:01.146 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"URL'nin \"kadin-giyim\" i\303\247erdi\304\237i do\304\237ruland\304\261" > 
+21-03-2021 16:03:01.146 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"URL'nin {} i\303\247erdi\304\237i do\304\237ruland\304\261" parameterizedStepValue:"URL'nin <kadin-giyim> i\303\247erdi\304\237i do\304\237ruland\304\261" parameters:"kadin-giyim" > > 
+21-03-2021 16:03:01.146 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\304\260ndirimli \303\274r\303\274nler listelendi" > 
+21-03-2021 16:03:01.146 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"\304\260ndirimli \303\274r\303\274nler listelendi" parameterizedStepValue:"\304\260ndirimli \303\274r\303\274nler listelendi" > > 
+21-03-2021 16:03:01.147 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\304\260lk \304\260ndirimli \303\234r\303\274n Se\303\247ildi" > 
+21-03-2021 16:03:01.147 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"\304\260lk \304\260ndirimli \303\234r\303\274n Se\303\247ildi" parameterizedStepValue:"\304\260lk \304\260ndirimli \303\234r\303\274n Se\303\247ildi" > > 
+21-03-2021 16:03:01.147 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"old\" fiyat\304\261 ile \"new\" fiyat\304\261 aras\304\261ndaki fark hesapland\304\261" > 
+21-03-2021 16:03:01.147 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} fiyat\304\261 ile {} fiyat\304\261 aras\304\261ndaki fark hesapland\304\261" parameterizedStepValue:"<old> fiyat\304\261 ile <new> fiyat\304\261 aras\304\261ndaki fark hesapland\304\261" parameters:"old" parameters:"new" > > 
+21-03-2021 16:13:43.589 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\IntellijProje\BeymenGauge\specs\example.spec
+21-03-2021 16:13:43.593 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\IntellijProje\BeymenGauge\specs\example.spec
+21-03-2021 16:17:05.066 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\IntellijProje\BeymenGauge\specs\example.spec
+21-03-2021 16:17:05.067 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\IntellijProje\BeymenGauge\specs\example.spec
+21-03-2021 16:24:22.189 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\IntellijProje\BeymenGauge\specs\example.spec
+21-03-2021 16:24:22.190 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\IntellijProje\BeymenGauge\specs\example.spec
+21-03-2021 16:26:27.812 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\IntellijProje\BeymenGauge\specs\example.spec
+21-03-2021 16:26:27.812 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\IntellijProje\BeymenGauge\specs\example.spec
+21-03-2021 16:31:35.045 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\IntellijProje\BeymenGauge\specs\example.spec
+21-03-2021 16:31:35.046 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\IntellijProje\BeymenGauge\specs\example.spec
+21-03-2021 16:34:25.516 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\IntellijProje\BeymenGauge\specs\example.spec
+21-03-2021 16:34:25.524 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\IntellijProje\BeymenGauge\specs\example.spec
+21-03-2021 16:44:39.501 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\IntellijProje\BeymenGauge\specs\example.spec
+21-03-2021 16:44:39.504 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\IntellijProje\BeymenGauge\specs\example.spec
+21-03-2021 16:47:29.548 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\IntellijProje\BeymenGauge\specs\example.spec
+21-03-2021 16:47:29.550 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\IntellijProje\BeymenGauge\specs\example.spec
+21-03-2021 16:51:29.481 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\IntellijProje\BeymenGauge\specs\example.spec
+21-03-2021 16:51:29.482 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\IntellijProje\BeymenGauge\specs\example.spec
+21-03-2021 23:41:52.639 [Gauge] [INFO] Watching directory: C:\Users\testinium\Desktop\IntellijProje\BeymenGauge\specs
+21-03-2021 23:41:52.640 [Gauge] [DEBUG] Found 1 files
+21-03-2021 23:41:52.651 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+21-03-2021 23:41:52.659 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\IntellijProje\BeymenGauge\specs\example.spec
+22-03-2021 13:10:56.832 [Gauge] [INFO] Watching directory: C:\Users\testinium\Desktop\IntellijProje\BeymenGauge\specs
+22-03-2021 13:10:56.832 [Gauge] [DEBUG] Found 1 files
+22-03-2021 13:10:56.837 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+22-03-2021 13:10:56.843 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\IntellijProje\BeymenGauge\specs\example.spec
+22-03-2021 13:10:56.846 [Gauge] [INFO] Initializing specs cache with 1 specs
+22-03-2021 13:10:56.846 [Gauge] [DEBUG] Adding specs from C:\Users\testinium\Desktop\IntellijProje\BeymenGauge\specs\example.spec
+22-03-2021 13:10:56.846 [Gauge] [INFO] Initializing steps cache with 1 steps
+22-03-2021 13:10:56.846 [Gauge] [INFO] Gauge daemon initialized and listening on port: 61691
+22-03-2021 13:23:47.778 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\304\260ndirimden elde edilen  hesapland\304\261" > 
+22-03-2021 13:23:47.779 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"\304\260ndirimden elde edilen  hesapland\304\261" parameterizedStepValue:"\304\260ndirimden elde edilen  hesapland\304\261" > > 
+22-03-2021 13:23:48.658 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\304\260ndirimden elde edilen k hesapland\304\261" > 
+22-03-2021 13:23:48.658 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"\304\260ndirimden elde edilen k hesapland\304\261" parameterizedStepValue:"\304\260ndirimden elde edilen k hesapland\304\261" > > 
+22-03-2021 13:23:49.531 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\304\260ndirimden elde edilen kar hesapland\304\261" > 
+22-03-2021 13:23:49.531 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"\304\260ndirimden elde edilen kar hesapland\304\261" parameterizedStepValue:"\304\260ndirimden elde edilen kar hesapland\304\261" > > 
+22-03-2021 13:23:57.760 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"i" > 
+22-03-2021 13:23:57.761 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"i" parameterizedStepValue:"i" > > 
+22-03-2021 13:23:57.783 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+22-03-2021 13:23:57.783 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"{} elemente t\304\261kland\304\261" parameterizedStepValue:"<G\304\260Y\304\260M> elemente t\304\261kland\304\261" parameters:"G\304\260Y\304\260M" > allSteps:<stepValue:"URL'nin {} i\303\247erdi\304\237i do\304\237ruland\304\261" parameterizedStepValue:"URL'nin <kadin-giyim> i\303\247erdi\304\237i do\304\237ruland\304\261" parameters:"kadin-giyim" > allSteps:<stepValue:"\304\260ndirimli \303\274r\303\274nler listelendi" parameterizedStepValue:"\304\260ndirimli \303\274r\303\274nler listelendi" > allSteps:<stepValue:"\304\260lk \304\260ndirimli \303\234r\303\274n Se\303\247ildi" parameterizedStepValue:"\304\260lk \304\260ndirimli \303\234r\303\274n Se\303\247ildi" > allSteps:<stepValue:"{} fiyat\304\261 ile {} fiyat\304\261 aras\304\261ndaki fark hesapland\304\261" parameterizedStepValue:"<old> fiyat\304\261 ile <new> fiyat\304\261 aras\304\261ndaki fark hesapland\304\261" parameters:"old" parameters:"new" > allSteps:<stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://www.beymen.com>" parameters:"https://www.beymen.com" > allSteps:<stepValue:"{} elementine hover olundu" parameterizedStepValue:"<KADIN> elementine hover olundu" parameters:"KADIN" > > 
+22-03-2021 13:23:57.790 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+22-03-2021 13:23:57.790 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+22-03-2021 13:23:58.013 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"in" > 
+22-03-2021 13:23:58.013 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"in" parameterizedStepValue:"in" > > 
+22-03-2021 13:23:58.162 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"ind" > 
+22-03-2021 13:23:58.162 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"ind" parameterizedStepValue:"ind" > > 
+22-03-2021 13:23:59.299 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+22-03-2021 13:23:59.299 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+22-03-2021 13:23:59.301 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+22-03-2021 13:23:59.301 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+22-03-2021 13:23:59.339 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+22-03-2021 13:23:59.339 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+22-03-2021 13:23:59.339 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+22-03-2021 13:23:59.339 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+22-03-2021 13:23:59.368 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+22-03-2021 13:23:59.368 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+22-03-2021 13:23:59.368 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+22-03-2021 13:23:59.369 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+22-03-2021 13:23:59.397 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+22-03-2021 13:23:59.397 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+22-03-2021 13:23:59.397 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+22-03-2021 13:23:59.397 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+22-03-2021 13:23:59.628 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+22-03-2021 13:23:59.628 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+22-03-2021 13:23:59.634 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+22-03-2021 13:23:59.634 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+22-03-2021 13:23:59.635 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+22-03-2021 13:23:59.635 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+22-03-2021 13:23:59.681 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+22-03-2021 13:23:59.681 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+22-03-2021 13:23:59.682 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+22-03-2021 13:23:59.682 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+22-03-2021 13:23:59.711 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+22-03-2021 13:23:59.711 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+22-03-2021 13:23:59.711 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+22-03-2021 13:23:59.712 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+22-03-2021 13:23:59.863 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\304\260" > 
+22-03-2021 13:23:59.863 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"\304\260" parameterizedStepValue:"\304\260" > > 
+22-03-2021 13:23:59.868 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+22-03-2021 13:23:59.868 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"\304\260lk \304\260ndirimli \303\234r\303\274n Se\303\247ildi" parameterizedStepValue:"\304\260lk \304\260ndirimli \303\234r\303\274n Se\303\247ildi" > allSteps:<stepValue:"{} fiyat\304\261 ile {} fiyat\304\261 aras\304\261ndaki fark hesapland\304\261" parameterizedStepValue:"<old> fiyat\304\261 ile <new> fiyat\304\261 aras\304\261ndaki fark hesapland\304\261" parameters:"old" parameters:"new" > allSteps:<stepValue:"Navigate to {}" parameterizedStepValue:"Navigate to <https://www.beymen.com>" parameters:"https://www.beymen.com" > allSteps:<stepValue:"{} elementine hover olundu" parameterizedStepValue:"<KADIN> elementine hover olundu" parameters:"KADIN" > allSteps:<stepValue:"{} elemente t\304\261kland\304\261" parameterizedStepValue:"<G\304\260Y\304\260M> elemente t\304\261kland\304\261" parameters:"G\304\260Y\304\260M" > allSteps:<stepValue:"URL'nin {} i\303\247erdi\304\237i do\304\237ruland\304\261" parameterizedStepValue:"URL'nin <kadin-giyim> i\303\247erdi\304\237i do\304\237ruland\304\261" parameters:"kadin-giyim" > allSteps:<stepValue:"\304\260ndirimli \303\274r\303\274nler listelendi" parameterizedStepValue:"\304\260ndirimli \303\274r\303\274nler listelendi" > > 
+22-03-2021 13:23:59.869 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+22-03-2021 13:23:59.869 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+22-03-2021 13:24:23.418 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\IntellijProje\BeymenGauge\specs\example.spec
+22-03-2021 13:24:23.427 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\IntellijProje\BeymenGauge\specs\example.spec
+22-03-2021 13:25:21.732 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\IntellijProje\BeymenGauge\specs\example.spec
+22-03-2021 13:25:21.739 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\IntellijProje\BeymenGauge\specs\example.spec
+22-03-2021 15:09:31.995 [Gauge] [INFO] Watching directory: C:\Users\testinium\Desktop\IntellijProje\BeymenGauge\specs
+22-03-2021 15:09:31.998 [Gauge] [DEBUG] Found 1 files
+22-03-2021 15:09:31.999 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+22-03-2021 15:09:32.000 [Gauge] [INFO] Spec file added / modified: C:\Users\testinium\Desktop\IntellijProje\BeymenGauge\specs\example.spec
