@@ -72,25 +72,14 @@
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
-         <build>
-        <plugins>
-            <plugin>
-                <groupId>com.thoughtworks.gauge.maven</groupId>
-                <artifactId>gauge-maven-plugin</artifactId>
-                <version>1.5.9</version>
-                <executions>
-                    <execution>
-                        <phase>test</phase>
-                        <configuration>
-                            <specsDir>specs</specsDir>
-                        </configuration>
-                        <goals>
-                            <goal>execute</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
-        </plugins>
-    </build>
+        <build>
+     <plugins>
+         <plugin>
+             <groupId>com.thoughtworks.gauge.maven</groupId>
+             <artifactId>gauge-maven-plugin</artifactId>
+             <version>1.4.0</version>
+         </plugin>
+     </plugins>
+ </build>
 
 </project>
