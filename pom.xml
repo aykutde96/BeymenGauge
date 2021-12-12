@@ -65,12 +65,6 @@
             <version>0.7.2</version>
             <scope>compile</scope>
         </dependency>
-<!-- https://mvnrepository.com/artifact/com.thoughtworks.gauge.maven/gauge-maven-plugin -->
-<dependency>
-    <groupId>com.thoughtworks.gauge.maven</groupId>
-    <artifactId>gauge-maven-plugin</artifactId>
-    <version>1.4.1</version>
-</dependency>
 
     </dependencies>
 
@@ -83,7 +77,7 @@
          <plugin>
              <groupId>com.thoughtworks.gauge.maven</groupId>
              <artifactId>gauge-maven-plugin</artifactId>
-             <version>1.5.9</version>
+             <version>1.5.0</version>
          </plugin>
      </plugins>
  </build>
