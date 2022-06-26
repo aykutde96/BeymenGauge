@@ -13,7 +13,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
         @BeforeScenario
         public void setUp(){
 
-            System.setProperty("webdriver.chrome.driver", "C:\\Users\\testinium\\Desktop\\IntellijProje\\BeymenGauge\\driver\\chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", "driver/chromedriver96.exe");
             ChromeOptions options = new ChromeOptions();
             options.addArguments("start-maximized");
             options.addArguments("disable-translate");
