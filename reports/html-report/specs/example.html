@@ -31,11 +31,11 @@
    
   <div class="report_chart">
     <div class="chart">
-      <svg id="pie-chart" data-results="0,1,0" data-total="1">
+      <svg id="pie-chart" data-results="1,0,0" data-total="1">
         <path class="status failed" />
-        <path class="shadow failed" data-status="failed"><title>Failed: 0/1</title></path>
+        <path class="shadow failed" data-status="failed"><title>Failed: 1/1</title></path>
         <path class="status passed" />
-        <path class="shadow passed" data-status="passed"><title>Passed: 1/1</title></path>
+        <path class="shadow passed" data-status="passed"><title>Passed: 0/1</title></path>
         <path class="status skipped" />
         <path class="shadow skipped" data-status="skipped"><title>Skipped: 0/1</title></path>
       </svg>
@@ -46,14 +46,14 @@
   <div class="report_test-results">
     <div class="report_test-result specs">
         <div class="total-specs" title="Filter all specs"><span class="txt">Total specs</span><span class="value">1</span></div>
-        <div class="fail spec-filter" data-status="failed" title="Filter failed specs"><span class="value">0</span></div>
-        <div class="pass spec-filter" data-status="passed" title="Filter passed specs"><span class="value">1</span></div>
+        <div class="fail spec-filter" data-status="failed" title="Filter failed specs"><span class="value">1</span></div>
+        <div class="pass spec-filter" data-status="passed" title="Filter passed specs"><span class="value">0</span></div>
         <div class="skip spec-filter" data-status="skipped" title="Filter skipped specs"><span class="value">0</span></div>
     </div>
     <div class="report_test-result scenarios">
         <div class="total-scenarios"><span class="txt">Total scenario</span><span class="value">1</span></div>
-        <div class="fail scenario-stats" data-status="failed"><span class="value">0</span></div>
-        <div class="pass scenario-stats" data-status="passed"><span class="value">1</span></div>
+        <div class="fail scenario-stats" data-status="failed"><span class="value">1</span></div>
+        <div class="pass scenario-stats" data-status="passed"><span class="value">0</span></div>
         <div class="skip scenario-stats" data-status="skipped"><span class="value">0</span></div>
     </div>
   </div>
@@ -68,15 +68,15 @@
     
     <li>
       <label>Success Rate </label>
-      <span>100%</span>
+      <span>0%</span>
     </li>
     <li>
       <label>Total Time </label>
-      <span>00:00:09</span>
+      <span>00:00:05</span>
     </li>
     <li>
       <label>Generated On </label>
-      <span>Mar 22, 2021 at 3:09pm</span>
+      <span>Oct 27, 2021 at 9:58am</span>
     </li>
   </ul>
 
@@ -114,11 +114,11 @@
         <ul id="scenarios" class="spec-list">
         
           <a href="example.html">
-             
-              <li class="passed spec-name">
+            
+              <li class="failed spec-name">
             
               <span id="scenarioName" class="scenarioname">Beymen Gauge</span>
-              <span id="time" class="time">00:00:09</span>
+              <span id="time" class="time">00:00:02</span>
             </li>
           </a>
           
@@ -136,8 +136,8 @@
         <h3 class="spec-head" title="C:\Users\testinium\Desktop\IntellijProje\BeymenGauge\specs\example.spec">Beymen Gauge</h3>
         <div class="hidden report_test-results" alt="Scenarios" title="Scenarios">
           <ul>
-            <li class="fail"><span class="value">0</span><span class="txt">Failed</span></li>
-            <li class="pass"><span class="value">1</span><span class="txt">Passed</span></li>
+            <li class="fail"><span class="value">1</span><span class="txt">Failed</span></li>
+            <li class="pass"><span class="value">0</span><span class="txt">Passed</span></li>
             <li class="skip"><span class="value">0</span><span class="txt">Skipped</span></li>
           </ul>
         </div>
@@ -150,7 +150,7 @@
               <i class="fa fa-clipboard" aria-hidden="true" title="Copy to Clipboard"></i>
           </button>
         </div>
-        <span class="time">00:00:09</span>
+        <span class="time">00:00:02</span>
       </div>
 
 	
@@ -178,14 +178,14 @@
       
         
 	
-  <div class="scenario-container passed">
+  <div class="scenario-container failed">
     
 
 	
   <div class="scenario-head">
     <h3 class="head borderBottom">Beymen İndirim Kar Hesaplama</h3>
     
-    <span class="time">00:00:09</span>
+    <span class="time">00:00:02</span>
 
 	
   
@@ -198,6 +198,30 @@
   
 
   
+	
+		
+  <div class="error-container failed">
+    <div class="error-heading">Before Scenario Failed:<span class="error-message"> org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 89<br/>Current browser version is 94.0.4606.71 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe<br/>Build info: version: &#39;3.141.59&#39;, revision: &#39;e82be7d358&#39;, time: &#39;2018-11-14T08:17:03&#39;<br/>System info: host: &#39;DESKTOP-AAG18PE&#39;, ip: &#39;192.168.1.124&#39;, os.name: &#39;Windows 10&#39;, os.arch: &#39;amd64&#39;, os.version: &#39;10.0&#39;, java.version: &#39;1.8.0_281&#39;<br/>Driver info: driver.version: ChromeDriver<br/>remote stacktrace: Backtrace:<br/>	Ordinal0 [0x0080E7D3+124883]<br/>	Ordinal0 [0x0080E7B1+124849]<br/>	GetHandleVerifier [0x00A58688+193832]<br/>	GetHandleVerifier [0x00A73AC5+305509]<br/>	GetHandleVerifier [0x00A7021B+291003]<br/>	GetHandleVerifier [0x00A6E0AC+282444]<br/>	GetHandleVerifier [0x00A94A90+440624]<br/>	GetHandleVerifier [0x00A947FC+439964]<br/>	GetHandleVerifier [0x00A9154B+426987]<br/>	GetHandleVerifier [0x00A74FFD+310941]<br/>	GetHandleVerifier [0x00A75D8E+314414]<br/>	GetHandleVerifier [0x00A75D19+314297]<br/>	GetHandleVerifier [0x00B331EC+1089676]<br/>	GetHandleVerifier [0x00B317C9+1082985]<br/>	GetHandleVerifier [0x00B313A3+1081923]<br/>	GetHandleVerifier [0x00C2D9FD+2115741]<br/>	Ordinal0 [0x0095B82E+1488942]<br/>	Ordinal0 [0x008F5A7D+1071741]<br/>	Ordinal0 [0x008F559B+1070491]<br/>	Ordinal0 [0x008F54B1+1070257]<br/>	Ordinal0 [0x0092FF53+1310547]<br/>	BaseThreadInitThunk [0x76AEFA29+25]<br/>	RtlGetAppContainerNamedObjectPath [0x77147A9E+286]<br/>	RtlGetAppContainerNamedObjectPath [0x77147A6E+238]<br/></span></div>
+    <div class="toggle-show">
+      [Show details]
+    </div>
+    <div class="exception-container hidden">
+      <div class="exception">
+        <pre class="stacktrace">sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br/>sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br/>sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br/>java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br/>org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)<br/>org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)<br/>org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)<br/>java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)<br/>java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)<br/>java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)<br/>java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)<br/>java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)<br/>java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)<br/>java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)<br/>java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)<br/>java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)<br/>org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)<br/>org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)<br/>org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)<br/>org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br/>org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br/>org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)<br/>org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)<br/>org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)<br/>org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)<br/>org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:157)<br/>io.testinium.base.BaseTest.setUp(BaseTest.java:24)<br/></pre>
+      </div>
+      
+        <div class="screenshot-container">
+          <div class="screenshot">
+            <a href="../images/screenshot-7722e28f-3fb8-4fcd-b74f-d9e555e98d7a.png" rel="lightbox">
+              <img src="../images/screenshot-7722e28f-3fb8-4fcd-b74f-d9e555e98d7a.png" class="screenshot-thumbnail" />
+            </a>
+          </div>
+        </div>
+      
+      
+    </div>
+  </div>
+
 	
 
   
@@ -216,10 +240,10 @@
   
   
     <h5 class="execution-time">
-      <span class="time">Execution Time : 00:00:02</span>
+      <span class="time">Execution Time : 00:00:00</span>
     </h5>
   
-  <div class="step-info passed">
+  <div class="step-info not-executed">
   
   <ul>
     <li class="step">
@@ -286,7 +310,7 @@
       <span class="time">Execution Time : 00:00:00</span>
     </h5>
   
-  <div class="step-info passed">
+  <div class="step-info not-executed">
   
   <ul>
     <li class="step">
@@ -350,10 +374,10 @@
   
   
     <h5 class="execution-time">
-      <span class="time">Execution Time : 00:00:02</span>
+      <span class="time">Execution Time : 00:00:00</span>
     </h5>
   
-  <div class="step-info passed">
+  <div class="step-info not-executed">
   
   <ul>
     <li class="step">
@@ -420,7 +444,7 @@
       <span class="time">Execution Time : 00:00:00</span>
     </h5>
   
-  <div class="step-info passed">
+  <div class="step-info not-executed">
   
   <ul>
     <li class="step">
@@ -493,7 +517,7 @@
       <span class="time">Execution Time : 00:00:00</span>
     </h5>
   
-  <div class="step-info passed">
+  <div class="step-info not-executed">
   
   <ul>
     <li class="step">
@@ -554,6 +578,30 @@
   
 
   
+	
+		
+  <div class="error-container failed">
+    <div class="error-heading">After Scenario Failed:<span class="error-message"> java.lang.NullPointerException</span></div>
+    <div class="toggle-show">
+      [Show details]
+    </div>
+    <div class="exception-container hidden">
+      <div class="exception">
+        <pre class="stacktrace">io.testinium.base.BaseTest.tearDown(BaseTest.java:31)<br/></pre>
+      </div>
+      
+        <div class="screenshot-container">
+          <div class="screenshot">
+            <a href="../images/screenshot-76df5a77-26d0-43ce-8a5e-646cc32a2ca6.png" rel="lightbox">
+              <img src="../images/screenshot-76df5a77-26d0-43ce-8a5e-646cc32a2ca6.png" class="screenshot-thumbnail" />
+            </a>
+          </div>
+        </div>
+      
+      
+    </div>
+  </div>
+
 	
 	</div>
 

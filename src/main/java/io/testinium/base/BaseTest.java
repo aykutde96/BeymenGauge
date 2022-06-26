@@ -37,7 +37,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
         public void setWebDriver(WebDriver webDriver) {
 
-            this.webDriver = webDriver;
+            BaseTest.webDriver = webDriver;
         }
 
     }

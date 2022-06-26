@@ -1,0 +1,25 @@
+
+c
+java:S5361)"HReplace this call to "replaceAll()" by a call to the "replace()" method.(˜…õ‡øÿÿÿÿ
+]
+java:S5361*"HReplace this call to "replaceAll()" by a call to the "replace()" method.(³‹‡M
+^
+java:S5361+"HReplace this call to "replaceAll()" by a call to the "replace()" method.(ß‘á¡
+^
+java:S53610"HReplace this call to "replaceAll()" by a call to the "replace()" method.(¶ã¿ 
+^
+java:S53611"HReplace this call to "replaceAll()" by a call to the "replace()" method.(šŒðó
+^
+java:S53612"HReplace this call to "replaceAll()" by a call to the "replace()" method.(«üö½
+\
+java:S3457<"AFormat specifiers should be used instead of string concatenation.(Ú“è°ùÿÿÿÿ
+W
+java:S3457S"AFormat specifiers should be used instead of string concatenation.(á±¨¦
+R
+java:S2629<"7Use the built-in formatting to construct this argument.(Ú“è°ùÿÿÿÿ
+M
+java:S2629S"7Use the built-in formatting to construct this argument.(á±¨¦
+[
+java:S2259F"EA "NullPointerException" could be thrown; "element" is nullable here.(äÒœç
+g
+java:S20959"LUse try-with-resources or close this "BufferedWriter" in a "finally" clause.(¨‰æÄûÿÿÿÿ

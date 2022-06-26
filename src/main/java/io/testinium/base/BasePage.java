@@ -15,7 +15,7 @@ import java.io.IOException;
 public class BasePage {
 
     public final Logger logger = LogManager.getLogger(BasePage.class);
-    private WebDriver webDriver;
+    private final WebDriver webDriver;
     WebDriverWait webDriverWait;
 
     public BasePage() {
